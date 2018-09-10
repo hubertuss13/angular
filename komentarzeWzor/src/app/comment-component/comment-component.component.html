@@ -1,0 +1,6 @@
+<div class="card card-block"> 
+   <h4 class="card-title">{{comment.imie}}</h4>
+   <p class="card-text" [hidden]="comment.hide">{{comment.komentarz}}</p>
+</div>
+<a class="btn btn-primary" (click)="comment.toggle()">Wyswietl</a>
+<a class="btn btn-primary" (click)="Usun()">Usun</a>

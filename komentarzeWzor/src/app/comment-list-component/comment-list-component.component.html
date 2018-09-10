@@ -1,0 +1,20 @@
+
+<new-comment-form (commentCreated)="DodajComment($event)" (commentDelete)="UsunComment($event)">
+</new-comment-form>
+<div id="sekcja1">
+</div>
+
+
+<div class="card">
+    <div class="card-body"> 
+      <h4 class="card-title">Lista komentarzy</h4>
+      <div class="form-group">
+        <comment  *ngFor="let comment of comments" [komentarz]="comment" (UsunComment)="UsunComment($event)">
+        </comment>
+      </div>
+    
+    </div> 
+</div>
+
+
+

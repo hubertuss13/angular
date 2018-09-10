@@ -1,0 +1,15 @@
+.myMargin {
+    margin-top: 15px;
+} 
+
+.myFont {
+    font-family: "Palatino", "URW Palladio L", "serif" ;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.bottomPosition {
+overflow: hidden;
+position: fixed;
+bottom: 0;
+}

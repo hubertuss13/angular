@@ -1,0 +1,8 @@
+<h2>My heroes: </h2>
+<ul class="heroes">
+    <li *ngFor="let singleHero of copiedHeroes" >
+        <a routerLink="/detail/{{singleHero.id}}">
+            <span class="badge">{{ singleHero.id }}.</span> {{ singleHero.name }}
+        </a>
+    </li>
+</ul>

@@ -1,0 +1,10 @@
+Podaj imie: <br>
+<input class="halfWidth" type="text" placeholder="Wpisz imię" #inputImie>
+<br>
+Treść komentarza: <br>
+<input class="fullWidth" type="text" placeholder="Wpisz swój komentarz" #inputKomentarz>
+<br>
+<br>
+<button (click)="addComment(inputImie.value, inputKomentarz.value)">Dodaj komentarz</button>
+<hr>
+<hr>
